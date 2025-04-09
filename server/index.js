@@ -3,7 +3,7 @@ import express, { json } from 'express';
 import cors from 'cors';
 import axios from 'axios';
 import dotenv from 'dotenv';
-import Serverless from 'serverless-http';
+// import Serverless from 'serverless-http';
 dotenv.config();
 
 const app = express();
@@ -105,4 +105,4 @@ app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
 
-export default Serverless(app);
+// export default Serverless(app);
