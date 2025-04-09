@@ -1,0 +1,20 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Handle binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+
+# Specific settings for JavaScript and JSON files
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+
+# Node.js dependencies
+node_modules/* -text
