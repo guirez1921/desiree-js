@@ -1,8 +1,8 @@
-// server/index.js
-import express, { json } from 'express';
-import cors from 'cors';
-import axios from 'axios';
-import dotenv from 'dotenv';
+const express = require('express');
+const { json } = require('express');
+const cors = require('cors');
+const axios = require('axios');
+const dotenv = require('dotenv');
 // import Serverless from 'serverless-http';
 dotenv.config();
 
@@ -105,4 +105,5 @@ app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
 
+module.exports = app
 // export default Serverless(app);
