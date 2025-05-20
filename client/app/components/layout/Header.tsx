@@ -9,6 +9,8 @@ export default function Header() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const [cartItems, setCartItems] = useState<CartItem[]>([]);
+    const [searchQuery, setSearchQuery] = useState("");
+    const [searchResults, setSearchResults] = useState<Product[]>([]);
 
     const loadData = () => {
         const cart: CartItem[] = JSON.parse(localStorage.getItem('cart') || '[]'); // Retrieve cart from localStorage
@@ -27,6 +29,22 @@ export default function Header() {
 
         return () => {clearInterval(interval); window.removeEventListener("scroll", handleScroll);}; // Cleanup function to remove event listener and interval
     }, []);
+
+    useEffect(() => {
+        if (searchQuery.trim() === "") {
+            setSearchResults([]);
+            return;
+        }
+        // Ensure all products have numeric rating for type safety
+        const normalizedProducts = allProducts.map(product => ({
+            ...product,
+            rating: typeof product.rating === "string" ? parseFloat(product.rating) : product.rating,
+        }));
+        const results = normalizedProducts.filter(product =>
+            product.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        setSearchResults(results);
+    }, [searchQuery]);
 
     const recommendedProducts: Product[] = allProducts
         .map(product => ({
@@ -97,32 +115,62 @@ export default function Header() {
                             <input
                                 type="text"
                                 placeholder="Search products..."
-                                className="w-full py-2 pl-10 pr-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azalea-600 focus:border-transparent"
+                                className="w-full py-2 pl-10 pr-4 text-gray-900 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azalea-600 focus:border-transparent"
+                                value={searchQuery}
+                                onChange={e => setSearchQuery(e.target.value)}
+                                autoFocus
                             />
                             <SearchIcon
                                 size={18}
                                 className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
                             />
                         </div>
-                        {/* Recommended products */}
-                        <div className="mt-6">
-                            <h3 className="text-lg font-semibold text-gray-700 mb-4">Recommended Products</h3>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                {recommendedProducts.map((product) => (
-                                    <div key={product.id} className="flex items-center space-x-4">
-                                        <img
-                                            src={product.images[0]}
-                                            alt={product.name}
-                                            className="w-12 h-12 rounded-md"
-                                        />
-                                        <div>
-                                            <p className="text-sm font-medium text-gray-700">{product.name}</p>
-                                            <p className="text-sm text-gray-500">${product.price.toFixed(2)}</p>
-                                        </div>
+                        {/* Live search results */}
+                        {searchQuery && (
+                            <div className="mt-6">
+                                <h3 className="text-lg font-semibold text-gray-700 mb-4">Search Results</h3>
+                                {searchResults.length > 0 ? (
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        {searchResults.map((product) => (
+                                            <div key={product.id} className="flex items-center space-x-4">
+                                                <img
+                                                    src={product.images[0]}
+                                                    alt={product.name}
+                                                    className="w-12 h-12 rounded-md"
+                                                />
+                                                <div>
+                                                    <p className="text-sm font-medium text-gray-700">{product.name}</p>
+                                                    <p className="text-sm text-gray-500">${product.price.toFixed(2)}</p>
+                                                </div>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
+                                ) : (
+                                    <p className="text-gray-500">No products found.</p>
+                                )}
                             </div>
-                        </div>
+                        )}
+                        {/* Recommended products (if no search) */}
+                        {!searchQuery && (
+                            <div className="mt-6">
+                                <h3 className="text-lg font-semibold text-gray-700 mb-4">Recommended Products</h3>
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    {recommendedProducts.map((product) => (
+                                        <div key={product.id} className="flex items-center space-x-4">
+                                            <img
+                                                src={product.images[0]}
+                                                alt={product.name}
+                                                className="w-12 h-12 rounded-md"
+                                            />
+                                            <div>
+                                                <p className="text-sm font-medium text-gray-700">{product.name}</p>
+                                                <p className="text-sm text-gray-500">${product.price.toFixed(2)}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             )}

@@ -223,6 +223,11 @@ export default function CartIndex() {
                                                 alt="PayPal icon"
                                                 className="w-12 h-8 object-contain"
                                             />
+                                            <img
+                                                src="https://static-00.iconduck.com/assets.00/verve-icon-512x322-zfukxtct.png"
+                                                alt="PayPal icon"
+                                                className="w-12 h-8 object-contain"
+                                            />
                                         </div>
                                     </div>
                                 </div>

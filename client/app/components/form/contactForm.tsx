@@ -180,8 +180,33 @@ export default function ContactForm({ onSuccess, onFailure, onClose }: ContactFo
                 })} className="mt-1 block w-full border border-gray-300 rounded-md text-sm md:text-base shadow-sm md:py-2 md:px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500">
                     <option value="United States">United States</option>
                     <option value="Canada">Canada</option>
-                    <option value="United Kingdom">United Kingdom</option>
-                    {/* Add more countries as needed */}
+                    <option value="Austria">Austria</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Republic of Cyprus">Republic of Cyprus</option>
+                    <option value="Czech Republic">Czech Republic</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sweden">Sweden</option>
                 </select>
             </div>
 
