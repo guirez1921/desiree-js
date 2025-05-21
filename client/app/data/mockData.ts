@@ -4577,20 +4577,21 @@ export const customProducts = [
 ]
 
 export const cartItems = [
-    {
-        id: "c1",
-        quantity: 1,
-        color: "Black",
-        customText: "Miss Dominique",
-        product: customProducts.find((product) => product.id === "c1"),
-    },
-    {
-        id: "8",
-        quantity: 1,
-        color: "",
-        product: allProducts.find((product) => product.id === "8"),
-    }
 ];
+
+// {
+//     id: "c1",
+//     quantity: 1,
+//     color: "Black",
+//     customText: "Miss Dominique",
+//     product: customProducts.find((product) => product.id === "c1"),
+// },
+// {
+//     id: "8",
+//     quantity: 1,
+//     color: "",
+//     product: allProducts.find((product) => product.id === "8"),
+// }
 
 export const data = {
     addresses: [],
