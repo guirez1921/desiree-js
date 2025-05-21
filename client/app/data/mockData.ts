@@ -198,988 +198,7 @@ export const featuredProducts = [
         "fullDescription": null,
         "features": []
     },
-    {
-        "id": "a45127",
-        "name": "Arcwave Ion Pleasure Air Smart Silence Male Masturbator",
-        "price": 109.99,
-        "originalPrice": 169.99,
-        "rating": 3.75,
-        "reviewCount": 173,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/81269_a45127_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "toys",
-        "isNew": true,
-        "discount": 60,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a48484",
-        "name": "Womanizer Next Clitoral Suction Stimulator",
-        "price": 189.99,
-        "originalPrice": 189.99,
-        "rating": 4.27,
-        "reviewCount": 118,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86328_a48484_purple_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "vibrators",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": "purple",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a35238",
-        "name": "Lovehoney Wild Weekend Mega Couple's Sex Toy Kit (11 Piece)",
-        "price": 79.99,
-        "originalPrice": 79.99,
-        "rating": 4.52,
-        "reviewCount": 651,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/64003_a35238_purple_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "toys",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": "purple",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a24226",
-        "name": "Fleshlight Flight Pilot Male Masturbator",
-        "price": 49.99,
-        "originalPrice": 49.99,
-        "rating": 4.25,
-        "reviewCount": 1016,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/35948_a24226_clear_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "toys",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": "clear",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a48429",
-        "name": "Womanizer X Lovehoney Classic Rechargeable Clitoral Stimulator",
-        "price": 99.99,
-        "originalPrice": 99.99,
-        "rating": 4.25,
-        "reviewCount": 264,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86257_a48429_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "vibrators",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a34638",
-        "name": "Lovehoney Curved Silicone Suction Cup Dildo 5.5 Inch",
-        "price": 19.99,
-        "originalPrice": 19.99,
-        "rating": 4.6,
-        "reviewCount": 173,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/62632_a34638_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "toys",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a41284",
-        "name": "Lovehoney Fierce Leather-Look Longline Bra",
-        "price": 24.99,
-        "originalPrice": 24.99,
-        "rating": 4.66,
-        "reviewCount": 92,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75189_a41284_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a41160",
-        "name": "Lovehoney Fierce Wet Look Zip-Around Peek-a-Boo Body",
-        "price": 34.99,
-        "originalPrice": 34.99,
-        "rating": 4.48,
-        "reviewCount": 259,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75013_a41160_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a45892",
-        "name": "Lovehoney Fierce Wet Look Cut-Out Mini Dress",
-        "price": 24.99,
-        "originalPrice": 34.99,
-        "rating": 4.65,
-        "reviewCount": 122,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/82575_a45892_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": true,
-        "discount": 10,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a39703",
-        "name": "Lovehoney Boudoir Belle Blush Pink Push-Up Basque Set",
-        "price": 39.99,
-        "originalPrice": 39.99,
-        "rating": 4.56,
-        "reviewCount": 732,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75443_a39703_pink_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": "pink",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a36212",
-        "name": "Lovehoney Seduce Me Push-Up Basque Set",
-        "price": 39.99,
-        "originalPrice": 39.99,
-        "rating": 4.59,
-        "reviewCount": 705,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/66842_a36212_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a41284",
-        "name": "Lovehoney Fierce Leather-Look Longline Bra",
-        "price": 24.99,
-        "originalPrice": 24.99,
-        "rating": 4.66,
-        "reviewCount": 92,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75189_a41284_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a41160",
-        "name": "Lovehoney Fierce Wet Look Zip-Around Peek-a-Boo Body",
-        "price": 34.99,
-        "originalPrice": 34.99,
-        "rating": 4.48,
-        "reviewCount": 259,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75013_a41160_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a45892",
-        "name": "Lovehoney Fierce Wet Look Cut-Out Mini Dress",
-        "price": 24.99,
-        "originalPrice": 34.99,
-        "rating": 4.65,
-        "reviewCount": 122,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/82575_a45892_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": false,
-        "discount": 10,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a39703",
-        "name": "Lovehoney Boudoir Belle Blush Pink Push-Up Basque Set",
-        "price": 39.99,
-        "originalPrice": 39.99,
-        "rating": 4.56,
-        "reviewCount": 732,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75443_a39703_pink_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": "pink",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a36212",
-        "name": "Lovehoney Seduce Me Push-Up Basque Set",
-        "price": 39.99,
-        "originalPrice": 39.99,
-        "rating": 4.59,
-        "reviewCount": 705,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/66842_a36212_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a41284",
-        "name": "Lovehoney Fierce Leather-Look Longline Bra",
-        "price": 24.99,
-        "originalPrice": 24.99,
-        "rating": 4.66,
-        "reviewCount": 92,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75189_a41284_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "lingerie",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [
-            "regular"
-        ],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a46561",
-        "name": "Fifty Shades of Grey Sweet Anticipation Reversible Faux Leather Ankle Cuffs",
-        "price": 29.99,
-        "originalPrice": 49.99,
-        "rating": 4.33,
-        "reviewCount": 3,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/83670_a46561_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": false,
-        "discount": 20,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a38109",
-        "name": "Bondage Boutique Black Rose Restraints Harness",
-        "price": 42.99,
-        "originalPrice": 42.99,
-        "rating": 4.56,
-        "reviewCount": 27,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/70451_a38109_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a48435",
-        "name": "Lovehoney Tie and Tempt Luxury Bondage Kit (7 Pieces)",
-        "price": 49.99,
-        "originalPrice": 49.99,
-        "rating": 4.54,
-        "reviewCount": 48,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86264_a48435_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a39464",
-        "name": "Lovehoney Bind Date Bondage Kit (8 Piece)",
-        "price": 49.99,
-        "originalPrice": 49.99,
-        "rating": 4.74,
-        "reviewCount": 35,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/72393_a39464_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a48437",
-        "name": "Lovehoney Oh! Get Started Tie and Tease Kit (3 Pieces)",
-        "price": 19.99,
-        "originalPrice": 19.99,
-        "rating": 4.31,
-        "reviewCount": 86,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86265_a48437_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a46561",
-        "name": "Fifty Shades of Grey Sweet Anticipation Reversible Faux Leather Ankle Cuffs",
-        "price": 29.99,
-        "originalPrice": 49.99,
-        "rating": 4.33,
-        "reviewCount": 3,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/83670_a46561_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": false,
-        "discount": 20,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a38109",
-        "name": "Bondage Boutique Black Rose Restraints Harness",
-        "price": 42.99,
-        "originalPrice": 42.99,
-        "rating": 4.56,
-        "reviewCount": 27,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/70451_a38109_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a48435",
-        "name": "Lovehoney Tie and Tempt Luxury Bondage Kit (7 Pieces)",
-        "price": 49.99,
-        "originalPrice": 49.99,
-        "rating": 4.54,
-        "reviewCount": 48,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86264_a48435_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a39464",
-        "name": "Lovehoney Bind Date Bondage Kit (8 Piece)",
-        "price": 49.99,
-        "originalPrice": 49.99,
-        "rating": 4.74,
-        "reviewCount": 35,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/72393_a39464_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a48437",
-        "name": "Lovehoney Oh! Get Started Tie and Tease Kit (3 Pieces)",
-        "price": 19.99,
-        "originalPrice": 19.99,
-        "rating": 4.31,
-        "reviewCount": 86,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86265_a48437_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "a46561",
-        "name": "Fifty Shades of Grey Sweet Anticipation Reversible Faux Leather Ankle Cuffs",
-        "price": 29.99,
-        "originalPrice": 49.99,
-        "rating": 4.33,
-        "reviewCount": 3,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/83670_a46561_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "bondage",
-        "isNew": true,
-        "discount": 20,
-        "customizable": true,
-        "colors": "black",
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "65305",
-        "name": "Lovehoney Oh! Hot Knots Game (3 Piece)",
-        "price": 14.99,
-        "originalPrice": 14.99,
-        "rating": 4.64,
-        "reviewCount": 56,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/65305_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "53819",
-        "name": "Lovehoney Oh! Foreplay Dice (3 Pack)",
-        "price": 5.99,
-        "originalPrice": 5.99,
-        "rating": 4.2,
-        "reviewCount": 174,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/53819_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "73200",
-        "name": "Lovehoney Oh! 52 Weeks of Role Play",
-        "price": 7.99,
-        "originalPrice": 7.99,
-        "rating": 4.55,
-        "reviewCount": 20,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/73200_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "65525",
-        "name": "Lovehoney Enjoy Water-Based Lubricant 250ml",
-        "price": 12.99,
-        "originalPrice": 12.99,
-        "rating": 4.7,
-        "reviewCount": 2173,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/65525_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "essentials",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "65526",
-        "name": "Lovehoney Discover Water-Based Anal Lubricant 250ml",
-        "price": 12.99,
-        "originalPrice": 12.99,
-        "rating": 4.78,
-        "reviewCount": 1520,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/65526_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "anal",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "71345",
-        "name": "Lovehoney Ignite Orgasm Gel 30ml",
-        "price": 12.99,
-        "originalPrice": 12.99,
-        "rating": 3.85,
-        "reviewCount": 253,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/71345_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "essentials",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "54570",
-        "name": "Lovehoney Oh! Kama Sutra Playing Cards",
-        "price": 6.99,
-        "originalPrice": 6.99,
-        "rating": 4.55,
-        "reviewCount": 117,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/54570_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "60952",
-        "name": "Lovehoney Fresh Biodegradable Sex Toy Wipes (25 Pack)",
-        "price": 6.99,
-        "originalPrice": 6.99,
-        "rating": 4.84,
-        "reviewCount": 542,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/60952_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "toys",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "65305",
-        "name": "Lovehoney Oh! Hot Knots Game (3 Piece)",
-        "price": 14.99,
-        "originalPrice": 14.99,
-        "rating": 4.64,
-        "reviewCount": 56,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/65305_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "53819",
-        "name": "Lovehoney Oh! Foreplay Dice (3 Pack)",
-        "price": 5.99,
-        "originalPrice": 5.99,
-        "rating": 4.2,
-        "reviewCount": 174,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/53819_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "73200",
-        "name": "Lovehoney Oh! 52 Weeks of Role Play",
-        "price": 7.99,
-        "originalPrice": 7.99,
-        "rating": 4.55,
-        "reviewCount": 20,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/73200_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": true,
-        "discount": 0,
-        "customizable": false,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "65525",
-        "name": "Lovehoney Enjoy Water-Based Lubricant 250ml",
-        "price": 12.99,
-        "originalPrice": 12.99,
-        "rating": 4.7,
-        "reviewCount": 2173,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/65525_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "essentials",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "65526",
-        "name": "Lovehoney Discover Water-Based Anal Lubricant 250ml",
-        "price": 12.99,
-        "originalPrice": 12.99,
-        "rating": 4.78,
-        "reviewCount": 1520,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/65526_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "anal",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "71345",
-        "name": "Lovehoney Ignite Orgasm Gel 30ml",
-        "price": 12.99,
-        "originalPrice": 12.99,
-        "rating": 3.85,
-        "reviewCount": 253,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/71345_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "essentials",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "76866",
-        "name": "Lovehoney Position of the Week 52 Sex Positions Book",
-        "price": 8.99,
-        "originalPrice": 8.99,
-        "rating": 4.58,
-        "reviewCount": 50,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/76866_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "books",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "53819",
-        "name": "Lovehoney Oh! Foreplay Dice (3 Pack)",
-        "price": 5.99,
-        "originalPrice": 5.99,
-        "rating": 4.2,
-        "reviewCount": 174,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/53819_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": true,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "86338",
-        "name": "Lovehoney Entice Couple's Adventure Game",
-        "price": 24.99,
-        "originalPrice": 24.99,
-        "rating": 3.97,
-        "reviewCount": 34,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/86338_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "80711",
-        "name": "Lovehoney Position of the Week Cards",
-        "price": 9.99,
-        "originalPrice": 9.99,
-        "rating": 4.43,
-        "reviewCount": 56,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/80711_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "75139",
-        "name": "Lovehoney Oh! The Big Oh! Board Game",
-        "price": 24.99,
-        "originalPrice": 24.99,
-        "rating": 4.38,
-        "reviewCount": 77,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/75139_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": false,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    },
-    {
-        "id": "61244",
-        "name": "Tracey Cox Supersex Sex Position Card Deck (50 Cards)",
-        "price": 14.99,
-        "originalPrice": 14.99,
-        "rating": 4.41,
-        "reviewCount": 59,
-        "images": [
-            "https://media.lovehoneyassets.com/i/lovehoney/61244_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
-        ],
-        "category": "adult games",
-        "isNew": false,
-        "discount": 0,
-        "customizable": true,
-        "colors": null,
-        "sizes": [],
-        "description": null,
-        "fullDescription": null,
-        "features": []
-    }
+    
 ];
 
 export const allProducts = [
@@ -6655,7 +5674,989 @@ export const allProducts = [
       "Waterproof",
       "Silent"
     ]
-  }
+  },
+  {
+        "id": "a45127",
+        "name": "Arcwave Ion Pleasure Air Smart Silence Male Masturbator",
+        "price": 109.99,
+        "originalPrice": 169.99,
+        "rating": 3.75,
+        "reviewCount": 173,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/81269_a45127_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "toys",
+        "isNew": true,
+        "discount": 60,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a48484",
+        "name": "Womanizer Next Clitoral Suction Stimulator",
+        "price": 189.99,
+        "originalPrice": 189.99,
+        "rating": 4.27,
+        "reviewCount": 118,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86328_a48484_purple_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "vibrators",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": "purple",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a35238",
+        "name": "Lovehoney Wild Weekend Mega Couple's Sex Toy Kit (11 Piece)",
+        "price": 79.99,
+        "originalPrice": 79.99,
+        "rating": 4.52,
+        "reviewCount": 651,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/64003_a35238_purple_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "toys",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": "purple",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a24226",
+        "name": "Fleshlight Flight Pilot Male Masturbator",
+        "price": 49.99,
+        "originalPrice": 49.99,
+        "rating": 4.25,
+        "reviewCount": 1016,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/35948_a24226_clear_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "toys",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": "clear",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a48429",
+        "name": "Womanizer X Lovehoney Classic Rechargeable Clitoral Stimulator",
+        "price": 99.99,
+        "originalPrice": 99.99,
+        "rating": 4.25,
+        "reviewCount": 264,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86257_a48429_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "vibrators",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a34638",
+        "name": "Lovehoney Curved Silicone Suction Cup Dildo 5.5 Inch",
+        "price": 19.99,
+        "originalPrice": 19.99,
+        "rating": 4.6,
+        "reviewCount": 173,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/62632_a34638_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "toys",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a41284",
+        "name": "Lovehoney Fierce Leather-Look Longline Bra",
+        "price": 24.99,
+        "originalPrice": 24.99,
+        "rating": 4.66,
+        "reviewCount": 92,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75189_a41284_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a41160",
+        "name": "Lovehoney Fierce Wet Look Zip-Around Peek-a-Boo Body",
+        "price": 34.99,
+        "originalPrice": 34.99,
+        "rating": 4.48,
+        "reviewCount": 259,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75013_a41160_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a45892",
+        "name": "Lovehoney Fierce Wet Look Cut-Out Mini Dress",
+        "price": 24.99,
+        "originalPrice": 34.99,
+        "rating": 4.65,
+        "reviewCount": 122,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/82575_a45892_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": true,
+        "discount": 10,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a39703",
+        "name": "Lovehoney Boudoir Belle Blush Pink Push-Up Basque Set",
+        "price": 39.99,
+        "originalPrice": 39.99,
+        "rating": 4.56,
+        "reviewCount": 732,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75443_a39703_pink_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": "pink",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a36212",
+        "name": "Lovehoney Seduce Me Push-Up Basque Set",
+        "price": 39.99,
+        "originalPrice": 39.99,
+        "rating": 4.59,
+        "reviewCount": 705,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/66842_a36212_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a41284",
+        "name": "Lovehoney Fierce Leather-Look Longline Bra",
+        "price": 24.99,
+        "originalPrice": 24.99,
+        "rating": 4.66,
+        "reviewCount": 92,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75189_a41284_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a41160",
+        "name": "Lovehoney Fierce Wet Look Zip-Around Peek-a-Boo Body",
+        "price": 34.99,
+        "originalPrice": 34.99,
+        "rating": 4.48,
+        "reviewCount": 259,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75013_a41160_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a45892",
+        "name": "Lovehoney Fierce Wet Look Cut-Out Mini Dress",
+        "price": 24.99,
+        "originalPrice": 34.99,
+        "rating": 4.65,
+        "reviewCount": 122,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/82575_a45892_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": false,
+        "discount": 10,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a39703",
+        "name": "Lovehoney Boudoir Belle Blush Pink Push-Up Basque Set",
+        "price": 39.99,
+        "originalPrice": 39.99,
+        "rating": 4.56,
+        "reviewCount": 732,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75443_a39703_pink_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": "pink",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a36212",
+        "name": "Lovehoney Seduce Me Push-Up Basque Set",
+        "price": 39.99,
+        "originalPrice": 39.99,
+        "rating": 4.59,
+        "reviewCount": 705,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/66842_a36212_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a41284",
+        "name": "Lovehoney Fierce Leather-Look Longline Bra",
+        "price": 24.99,
+        "originalPrice": 24.99,
+        "rating": 4.66,
+        "reviewCount": 92,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75189_a41284_black_regular_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "lingerie",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [
+            "regular"
+        ],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a46561",
+        "name": "Fifty Shades of Grey Sweet Anticipation Reversible Faux Leather Ankle Cuffs",
+        "price": 29.99,
+        "originalPrice": 49.99,
+        "rating": 4.33,
+        "reviewCount": 3,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/83670_a46561_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": false,
+        "discount": 20,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a38109",
+        "name": "Bondage Boutique Black Rose Restraints Harness",
+        "price": 42.99,
+        "originalPrice": 42.99,
+        "rating": 4.56,
+        "reviewCount": 27,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/70451_a38109_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a48435",
+        "name": "Lovehoney Tie and Tempt Luxury Bondage Kit (7 Pieces)",
+        "price": 49.99,
+        "originalPrice": 49.99,
+        "rating": 4.54,
+        "reviewCount": 48,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86264_a48435_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a39464",
+        "name": "Lovehoney Bind Date Bondage Kit (8 Piece)",
+        "price": 49.99,
+        "originalPrice": 49.99,
+        "rating": 4.74,
+        "reviewCount": 35,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/72393_a39464_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a48437",
+        "name": "Lovehoney Oh! Get Started Tie and Tease Kit (3 Pieces)",
+        "price": 19.99,
+        "originalPrice": 19.99,
+        "rating": 4.31,
+        "reviewCount": 86,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86265_a48437_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a46561",
+        "name": "Fifty Shades of Grey Sweet Anticipation Reversible Faux Leather Ankle Cuffs",
+        "price": 29.99,
+        "originalPrice": 49.99,
+        "rating": 4.33,
+        "reviewCount": 3,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/83670_a46561_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": false,
+        "discount": 20,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a38109",
+        "name": "Bondage Boutique Black Rose Restraints Harness",
+        "price": 42.99,
+        "originalPrice": 42.99,
+        "rating": 4.56,
+        "reviewCount": 27,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/70451_a38109_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a48435",
+        "name": "Lovehoney Tie and Tempt Luxury Bondage Kit (7 Pieces)",
+        "price": 49.99,
+        "originalPrice": 49.99,
+        "rating": 4.54,
+        "reviewCount": 48,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86264_a48435_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a39464",
+        "name": "Lovehoney Bind Date Bondage Kit (8 Piece)",
+        "price": 49.99,
+        "originalPrice": 49.99,
+        "rating": 4.74,
+        "reviewCount": 35,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/72393_a39464_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a48437",
+        "name": "Lovehoney Oh! Get Started Tie and Tease Kit (3 Pieces)",
+        "price": 19.99,
+        "originalPrice": 19.99,
+        "rating": 4.31,
+        "reviewCount": 86,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86265_a48437_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "a46561",
+        "name": "Fifty Shades of Grey Sweet Anticipation Reversible Faux Leather Ankle Cuffs",
+        "price": 29.99,
+        "originalPrice": 49.99,
+        "rating": 4.33,
+        "reviewCount": 3,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/83670_a46561_black_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "bondage",
+        "isNew": true,
+        "discount": 20,
+        "customizable": true,
+        "colors": "black",
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "65305",
+        "name": "Lovehoney Oh! Hot Knots Game (3 Piece)",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "rating": 4.64,
+        "reviewCount": 56,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/65305_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "53819",
+        "name": "Lovehoney Oh! Foreplay Dice (3 Pack)",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "rating": 4.2,
+        "reviewCount": 174,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/53819_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "73200",
+        "name": "Lovehoney Oh! 52 Weeks of Role Play",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "rating": 4.55,
+        "reviewCount": 20,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/73200_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "65525",
+        "name": "Lovehoney Enjoy Water-Based Lubricant 250ml",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "rating": 4.7,
+        "reviewCount": 2173,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/65525_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "essentials",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "65526",
+        "name": "Lovehoney Discover Water-Based Anal Lubricant 250ml",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "rating": 4.78,
+        "reviewCount": 1520,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/65526_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "anal",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "71345",
+        "name": "Lovehoney Ignite Orgasm Gel 30ml",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "rating": 3.85,
+        "reviewCount": 253,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/71345_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "essentials",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "54570",
+        "name": "Lovehoney Oh! Kama Sutra Playing Cards",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "rating": 4.55,
+        "reviewCount": 117,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/54570_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "60952",
+        "name": "Lovehoney Fresh Biodegradable Sex Toy Wipes (25 Pack)",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "rating": 4.84,
+        "reviewCount": 542,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/60952_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "toys",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "65305",
+        "name": "Lovehoney Oh! Hot Knots Game (3 Piece)",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "rating": 4.64,
+        "reviewCount": 56,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/65305_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "53819",
+        "name": "Lovehoney Oh! Foreplay Dice (3 Pack)",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "rating": 4.2,
+        "reviewCount": 174,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/53819_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "73200",
+        "name": "Lovehoney Oh! 52 Weeks of Role Play",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "rating": 4.55,
+        "reviewCount": 20,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/73200_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": true,
+        "discount": 0,
+        "customizable": false,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "65525",
+        "name": "Lovehoney Enjoy Water-Based Lubricant 250ml",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "rating": 4.7,
+        "reviewCount": 2173,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/65525_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "essentials",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "65526",
+        "name": "Lovehoney Discover Water-Based Anal Lubricant 250ml",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "rating": 4.78,
+        "reviewCount": 1520,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/65526_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "anal",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "71345",
+        "name": "Lovehoney Ignite Orgasm Gel 30ml",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "rating": 3.85,
+        "reviewCount": 253,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/71345_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "essentials",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "76866",
+        "name": "Lovehoney Position of the Week 52 Sex Positions Book",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "rating": 4.58,
+        "reviewCount": 50,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/76866_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "books",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "53819",
+        "name": "Lovehoney Oh! Foreplay Dice (3 Pack)",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "rating": 4.2,
+        "reviewCount": 174,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/53819_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": true,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "86338",
+        "name": "Lovehoney Entice Couple's Adventure Game",
+        "price": 24.99,
+        "originalPrice": 24.99,
+        "rating": 3.97,
+        "reviewCount": 34,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/86338_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "80711",
+        "name": "Lovehoney Position of the Week Cards",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "rating": 4.43,
+        "reviewCount": 56,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/80711_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "75139",
+        "name": "Lovehoney Oh! The Big Oh! Board Game",
+        "price": 24.99,
+        "originalPrice": 24.99,
+        "rating": 4.38,
+        "reviewCount": 77,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/75139_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": false,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    },
+    {
+        "id": "61244",
+        "name": "Tracey Cox Supersex Sex Position Card Deck (50 Cards)",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "rating": 4.41,
+        "reviewCount": 59,
+        "images": [
+            "https://media.lovehoneyassets.com/i/lovehoney/61244_000?$primary$&h=371&w=278&fmt=auto&qlt=80"
+        ],
+        "category": "adult games",
+        "isNew": false,
+        "discount": 0,
+        "customizable": true,
+        "colors": null,
+        "sizes": [],
+        "description": null,
+        "fullDescription": null,
+        "features": []
+    }
 ];
 
 export const testimonials = [
@@ -6712,8 +6713,9 @@ export const testimonials = [
 export const customProducts = [
     {
         id: "c1",
-        name: "Custom Engraved Vibrator",
-        category: "vibrators",
+        name: "Custom Engraved Chocker Necklace",
+        description: "A beautiful chocker necklace with a custom engraving option.",
+        category: "collars",
         images: [
             "/assets/images/61UpfolIOkL_AC_SR263395_FMwebp_QL65_.webp"
         ],
@@ -6729,15 +6731,15 @@ export const customProducts = [
 ]
 
 export const cartItems = [
+    {
+        id: "c1",
+        quantity: 1,
+        color: "Black",
+        customText: "Olivia's Pet",
+        product: customProducts.find((product) => product.id === "c1"),
+    }
 ];
 
-// {
-//     id: "c1",
-//     quantity: 1,
-//     color: "Black",
-//     customText: "Miss Dominique",
-//     product: customProducts.find((product) => product.id === "c1"),
-// },
 // {
 //     id: "8",
 //     quantity: 1,

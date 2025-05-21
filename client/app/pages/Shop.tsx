@@ -1,7 +1,7 @@
 import { SearchIcon, SlidersIcon, XIcon } from "lucide-react";
 import { useState } from "react";
 import ProductCard from "~/components/product/ProductCard";
-import { allProducts, featuredProducts, categories } from "~/data/mockData";
+import { allProducts, categories } from "~/data/mockData";
 
 export default function Shop() {
     const [selectedCategory, setSelectedCategory] = useState('all');
@@ -9,13 +9,8 @@ export default function Shop() {
     const [sortBy, setSortBy] = useState('featured');
     const [showFilters, setShowFilters] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
-    // Merge allProducts and featuredProducts, removing duplicates by id
-    const mergedProducts = [
-        ...allProducts,
-        ...featuredProducts.filter(fp => !allProducts.some(ap => ap.id === fp.id))
-    ];
     // Filter products based on selected filters
-    const filteredProducts = mergedProducts.filter(product => {
+    const filteredProducts = allProducts.filter(product => {
         // Filter by category
         if (selectedCategory !== 'all' && product.category !== selectedCategory) {
             return false;

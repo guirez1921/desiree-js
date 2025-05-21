@@ -190,17 +190,17 @@ export default function Header() {
                         <Link to="/profile" className="text-gray-700 hover:text-azalea-600 transition py-2" onClick={() => setIsMenuOpen(false)}>
                             My Account
                         </Link>
-                        <div className="relative mt-2">
+                        {/* <div className="relative mt-2">
                             <input
                                 type="text"
                                 placeholder="Search products..."
-                                className="w-full py-2 pl-10 pr-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azalea-600 focus:border-transparent"
+                                className="w-full py-2 pl-10 pr-4 border text-gray-900 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-azalea-600 focus:border-transparent"
                             />
                             <SearchIcon
                                 size={18}
                                 className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             )}
