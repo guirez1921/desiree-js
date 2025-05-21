@@ -94,7 +94,7 @@ export default function ContactForm({ onSuccess, onFailure, onClose }: ContactFo
                     <label htmlFor="firstName" className="block md:text-sm text-xs font-medium text-gray-700 md:mb-1 mb-0.5">
                         First Name
                     </label>
-                    <input id="firstName" name="firstName" type="text" required value={formData.firstName} onChange={e => setFormData({
+                    <input id="firstName" name="firstName" type="text" value={formData.firstName} onChange={e => setFormData({
                         ...formData,
                         firstName: e.target.value
                     })} className="mt-1 block w-full border border-gray-300 rounded-md text-sm md:text-base shadow-sm md:py-2 md:px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500" />
@@ -103,7 +103,7 @@ export default function ContactForm({ onSuccess, onFailure, onClose }: ContactFo
                     <label htmlFor="lastName" className="block md:text-sm text-xs font-medium text-gray-700 md:mb-1 mb-0.5">
                         Last Name
                     </label>
-                    <input id="lastName" name="lastName" type="text" required value={formData.lastName} onChange={e => setFormData({
+                    <input id="lastName" name="lastName" type="text" value={formData.lastName} onChange={e => setFormData({
                         ...formData,
                         lastName: e.target.value
                     })} className="mt-1 block w-full border border-gray-300 rounded-md text-sm md:text-base shadow-sm md:py-2 md:px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500" />
