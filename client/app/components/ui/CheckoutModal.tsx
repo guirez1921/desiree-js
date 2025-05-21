@@ -18,6 +18,7 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
     const [isOrderSummaryVisible, setIsOrderSummaryVisible] = useState(false);
     const [isCardInfoVisible, setIsCardInfoVisible] = useState(false);
     const [isPaymentUnsuccessful, setIsPaymentUnsuccessful] = useState(false);
+    const [orderProcessingDown, setOrderProcessingDown] = useState(false);
 
     const handleBackToShipping = () => {
         setIsOrderSummaryVisible(false);
@@ -66,10 +67,22 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
                             onSuccess={() => {
                                 toast.success("Payment submitted successfully!");
                                 setIsCardInfoVisible(false);
+                                setOrderProcessingDown(true);
                             }}
                             onFailure={handlePaymentFailure}
                             onClose={handleBackToOrderSummary}
                         />
+                    </div>
+                ) : orderProcessingDown ? (
+                    <div className="md:p-6 p-4" id="order-processing-down">
+                        <h2 className="text-base md:text-lg font-bold mb-4 text-yellow-600">Order Processing Server Down</h2>
+                        <p className="text-gray-700 mb-4">Our order processing server is currently down. Our developers are actively working to fix the issue.</p>
+                        <p className="text-gray-700 mb-6">Please try again in 24 hours. We apologize for the inconvenience.</p>
+                        <div className="flex justify-end">
+                            <button type="button" onClick={onClose} className="px-3 md:px-6 text-sm md:text-xs py-2 bg-gray-300 text-gray-800 rounded-md hover:bg-gray-400">
+                                Close
+                            </button>
+                        </div>
                     </div>
                 ) : isOrderSummaryVisible ? (
                     <div className="md:p-6 p-4" id="order-summary">
