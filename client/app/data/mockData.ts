@@ -1183,7 +1183,7 @@ export const featuredProducts = [
 ];
 
 export const allProducts = [
-    // ...featuredProducts,
+
     {
         id: "1",
         name: "Lovehoney Enjoy Water-Based Lubricant 250ml,",
