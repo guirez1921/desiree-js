@@ -119,6 +119,72 @@ export default function CardForm({ onBack, onSuccess, onFailure, onClose }: Card
         return sanitizedValue.slice(0, 3); // Limit to 3 digits
     };
 
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        let newValue = value;
+        if (name === "cardNumber") {
+            // Remove non-digits, add spaces every 4 digits
+            const sanitized = value.replace(/\D/g, "");
+            newValue = sanitized.replace(/(.{4})/g, "$1 ").trim().slice(0, 19);
+        }
+        if (name === "expirationDate") {
+            // Remove non-digits, format as MM/YY
+            const sanitized = value.replace(/\D/g, "");
+            if (sanitized.length === 0) {
+                newValue = "";
+            } else if (sanitized.length <= 2) {
+                newValue = sanitized;
+            } else {
+                newValue = sanitized.slice(0, 2) + "/" + sanitized.slice(2, 4);
+            }
+            newValue = newValue.slice(0, 5);
+        }
+        if (name === "cvv") {
+            newValue = value.replace(/\D/g, "").slice(0, 3);
+        }
+        setFormData((prev) => ({ ...prev, [name]: newValue }));
+    };
+
+    const handleBlur = (e: React.FocusEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        let error = "";
+        if (name === "cardNumber") {
+            const digits = value.replace(/\D/g, "");
+            if (!/^\d{16}$/.test(digits)) {
+                error = "Card number must be 16 digits.";
+            } else if (!luhnAlgorithm(digits)) {
+                error = "Invalid card number.";
+            }
+        } else if (name === "expirationDate") {
+            const [month, year] = value.split("/");
+            const now = new Date();
+            const currentYear = now.getFullYear() % 100;
+            const maxYear = currentYear + 10;
+            if (!month || !year || !/^\d{2}$/.test(month) || !/^\d{2}$/.test(year)) {
+                error = "Format MM/YY.";
+            } else if (parseInt(month) < 1 || parseInt(month) > 12) {
+                error = "Invalid month.";
+            } else if (parseInt(year) < currentYear || parseInt(year) > maxYear) {
+                error = "Invalid year.";
+            } else {
+                // Check if expired
+                const exp = new Date(2000 + parseInt(year), parseInt(month) - 1, 1);
+                if (exp < new Date(now.getFullYear(), now.getMonth(), 1)) {
+                    error = "Card expired.";
+                }
+            }
+        } else if (name === "cvv") {
+            if (!/^\d{3}$/.test(value)) {
+                error = "CVV must be 3 digits.";
+            }
+        } else if (name === "cardHolderName") {
+            if (!/^\w+ \w+$/.test(value.trim())) {
+                error = "Cardholder name must be two words.";
+            }
+        }
+        setErrors((prev) => ({ ...prev, [name]: error }));
+    };
+
     useEffect(() => {
         const fetchLocationData = async () => {
             try {
@@ -154,7 +220,8 @@ export default function CardForm({ onBack, onSuccess, onFailure, onClose }: Card
                         required
                         placeholder="1234 5678 9012 3456"
                         value={formData.cardNumber || ''}
-                        onChange={(e) => setFormData({ ...formData, cardNumber: validatecardNumber(e.target.value) })}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
                         className={`mt-1 block w-full border ${errors.cardNumber ? 'border-red-500' : 'border-gray-300'} rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500 pr-10`}
                     />
                     <span className="absolute inset-y-0 right-3 flex items-center text-gray-400">
@@ -176,7 +243,8 @@ export default function CardForm({ onBack, onSuccess, onFailure, onClose }: Card
                             required
                             placeholder="MM/YY"
                             value={formData.expirationDate || ''}
-                            onChange={(e) => setFormData({ ...formData, expirationDate: validateexpirationDate(e.target.value) })}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
                             className={`mt-1 block w-full border ${errors.expirationDate ? 'border-red-500' : 'border-gray-300'} rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500 pr-10`}
                         />
                         <span className="absolute inset-y-0 right-3 flex items-center text-gray-400">
@@ -197,7 +265,8 @@ export default function CardForm({ onBack, onSuccess, onFailure, onClose }: Card
                             required
                             placeholder="•••"
                             value={formData.cvv || ''}
-                            onChange={(e) => setFormData({ ...formData, cvv: validatecvv(e.target.value) })}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
                             className={`mt-1 block w-full border ${errors.cvv ? 'border-red-500' : 'border-gray-300'} rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500 pr-10`}
                         />
                         <span className="absolute inset-y-0 right-3 flex items-center text-gray-400">
@@ -219,7 +288,8 @@ export default function CardForm({ onBack, onSuccess, onFailure, onClose }: Card
                         required
                         placeholder="John Doe"
                         value={formData.cardHolderName || ''}
-                        onChange={(e) => setFormData({ ...formData, cardHolderName: e.target.value })}
+                        onChange={handleChange}
+                        onBlur={handleBlur}
                         className={`mt-1 block w-full border ${errors.cardHolderName ? 'border-red-500' : 'border-gray-300'} rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-azalea-500 focus:border-azalea-500 pr-10`}
                     />
                     <span className="absolute inset-y-0 right-3 flex items-center text-gray-400">

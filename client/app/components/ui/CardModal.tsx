@@ -82,7 +82,20 @@ export default function CardModal({ isOpen, onClose, onSave, card }: CardModalPr
         const { name, value } = e.target;
         let newValue = value;
         if (name === "number") newValue = formatCardNumber(value);
-        if (name === "expiry") newValue = value.replace(/[^\d/]/g, "").replace(/^(\d{2})(\d{1,2})/, "$1/$2").slice(0, 5);
+        if (name === "expiry") {
+            // Only allow digits and format as MM/YY, allowing leading zero
+            newValue = value.replace(/[^\d]/g, "");
+            if (newValue.length === 0) {
+                newValue = "";
+            } else if (newValue.length === 1) {
+                newValue = newValue;
+            } else if (newValue.length === 2) {
+                newValue = newValue;
+            } else {
+                newValue = newValue.slice(0, 2) + "/" + newValue.slice(2, 4);
+            }
+            newValue = newValue.slice(0, 5);
+        }
         setCardState((prev) => ({ ...prev, [name]: newValue }));
         setTouched((prev) => ({ ...prev, [name]: true }));
         setErrors((prev) => ({ ...prev, [name]: validate(name, newValue) }));
