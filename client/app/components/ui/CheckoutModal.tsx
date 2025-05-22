@@ -12,13 +12,23 @@ interface CheckoutModalProps {
     cart: CartItem[];
     shipping: number;
     tax: number;
+    discounter?: string;
+    discountAmount?: number;
 }
 
-export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shipping, tax }: CheckoutModalProps) {
+export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shipping, tax, discounter, discountAmount }: CheckoutModalProps) {
     const [isOrderSummaryVisible, setIsOrderSummaryVisible] = useState(false);
     const [isCardInfoVisible, setIsCardInfoVisible] = useState(false);
     const [isPaymentUnsuccessful, setIsPaymentUnsuccessful] = useState(false);
     const [orderProcessingDown, setOrderProcessingDown] = useState(false);
+
+    // Calculate subtotal and discount
+    const subtotal = cart.reduce((total, item) => total + ((item.product?.price ?? 0) * item.quantity), 0);
+    const hasDiscount = !!discounter && !!discountAmount;
+    const discountedSubtotal = hasDiscount ? Math.max(0, subtotal - (discountAmount || 0)) : subtotal;
+    const finalShipping = discountedSubtotal > 100 ? 0 : shipping;
+    const finalTax = discountedSubtotal * (tax / subtotal || 0); // keep tax proportional if subtotal is 0
+    const finalTotal = discountedSubtotal + finalShipping + finalTax;
 
     const handleBackToShipping = () => {
         setIsOrderSummaryVisible(false);
@@ -99,21 +109,33 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
                                     </li>
                                 ))}
                                 <li className="flex justify-between items-center">
+                                    <p className="font-medium text-gray-800">Subtotal</p>
+                                    <p className="font-medium text-gray-800">${subtotal.toFixed(2)}</p>
+                                </li>
+                                {hasDiscount && (
+                                    <li className="flex justify-between items-center text-green-700">
+                                        <p className="font-medium text-gray-800">Discount ({discounter})</p>
+                                        <p className="font-medium">- ${discountAmount?.toFixed(2)}</p>
+                                    </li>
+                                )}
+                                {hasDiscount && (
+                                    <li className="flex justify-between items-center font-semibold">
+                                        <p className="font-medium text-gray-800">Subtotal After Discount</p>
+                                        <p className="font-medium text-gray-800">${discountedSubtotal.toFixed(2)}</p>
+                                    </li>
+                                )}
+                                <li className="flex justify-between items-center">
                                     <p className="font-medium text-gray-800">Shipping</p>
-                                    <p className="font-medium text-gray-800">${shipping.toFixed(2)}</p>
+                                    <p className="font-medium text-gray-800">${finalShipping.toFixed(2)}</p>
                                 </li>
                                 <li className="flex justify-between items-center">
                                     <p className="font-medium text-gray-800">Tax</p>
-                                    <p className="font-medium text-gray-800">${tax.toFixed(2)}</p>
+                                    <p className="font-medium text-gray-800">${finalTax.toFixed(2)}</p>
                                 </li>
                                 <li className="flex justify-between items-center border-t border-gray-300 pt-4">
                                     <p className="font-bold text-gray-800">Total</p>
                                     <p className="font-bold text-gray-800">
-                                        ${(
-                                            cart.reduce((total, item) => total + ((item.product?.price ?? 0) * item.quantity), 0) +
-                                            shipping +
-                                            tax
-                                        ).toFixed(2)}
+                                        ${finalTotal.toFixed(2)}
                                     </p>
                                 </li>
                             </ul>

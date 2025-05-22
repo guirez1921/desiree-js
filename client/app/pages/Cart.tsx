@@ -3,13 +3,19 @@ import { useState, useRef } from "react"; // Add useRef import
 import { Link } from "react-router";
 import ProductCard from "~/components/product/ProductCard";
 import CheckoutModal from "~/components/ui/CheckoutModal";
+import DiscountModal from "~/components/ui/DiscountModal";
 import { allProducts, cartItems } from "~/data/mockData"; // Import allProduct
 import type { CartItem, Product } from "~/data/types"; // Import Product type
 import { useEffect } from "react";
+import { useLocation } from "react-router";
 
 export default function CartIndex() {
     const [cart, setCart] = useState<CartItem[]>([]);
     const checkoutButtonRef = useRef<HTMLButtonElement>(null); // Create a ref for the checkout button
+    const location = useLocation();
+    const [isDiscountModalOpen, setIsDiscountModalOpen] = useState(false);
+    const [discountAmount, setDiscountAmount] = useState<number | null>(null);
+    const [discounter, setDiscounter] = useState<string | null>(null);
 
     const loadData = () => {
         const cart: CartItem[] = JSON.parse(localStorage.getItem('cart') || '[]'); // Retrieve cart from localStorage
@@ -19,6 +25,18 @@ export default function CartIndex() {
     useEffect(() => {
         loadData();
     }, []);
+
+    useEffect(() => {
+        // Parse query params
+        const params = new URLSearchParams(location.search);
+        const req = params.get('req');
+        const id = params.get('id');
+        if (req && id) {
+            setDiscounter(req.charAt(0).toUpperCase() + req.slice(1));
+            setDiscountAmount(Number(id)/1763528);
+            setIsDiscountModalOpen(true);
+        }
+    }, [location.search]);
 
     const handleQuantityChange = (id: string, delta: number) => {
         setCart((prevCart) => {
@@ -41,15 +59,24 @@ export default function CartIndex() {
     };
 
     const subtotal = cart.reduce((sum, item) => sum + (item.product?.price ?? 0) * item.quantity, 0);
-    const shipping = subtotal > 100 ? 0 : 9.99;
     const taxRate = 0.1; // Define tax rate
-    const tax = subtotal * taxRate; // Calculate tax
-    const total = subtotal + shipping + tax; // Update total calculation
+
+    // Calculate discounted subtotal if discount is present
+    const hasDiscount = discountAmount && discounter;
+    const discountedSubtotal = hasDiscount ? Math.max(0, subtotal - discountAmount) : subtotal;
+    const shipping = discountedSubtotal > 100 ? 0 : 9.99;
+    const tax = discountedSubtotal * taxRate;
+    const total = discountedSubtotal + shipping + tax;
+
     const [isCheckoutModalOpen, setIsCheckoutModalOpen] = useState(false);
     const recommendedProducts: Product[] = allProducts
         .map((product) => ({
             ...product,
             rating: typeof product.rating === 'string' ? parseFloat(product.rating) : product.rating,
+            description: product.description === null ? undefined : product.description,
+            fullDescription: product.fullDescription === null ? undefined : product.fullDescription,
+            sizes: product.sizes === null ? undefined : product.sizes,
+            colors: product.colors === null ? undefined : product.colors,
         }))
         .slice(0, 8); // Pick only the first 8 products
 
@@ -168,6 +195,16 @@ export default function CartIndex() {
                                             <span className="text-gray-600">Subtotal</span>
                                             <span>${subtotal.toFixed(2)}</span>
                                         </div>
+                                        {hasDiscount && (
+                                            <div className="flex justify-between text-green-700">
+                                                <span className="text-gray-600">Discount ({discounter})</span>
+                                                <span>- ${discountAmount?.toFixed(2)}</span>
+                                            </div>
+                                        )}
+                                        {hasDiscount && (<div className="flex justify-between font-semibold">
+                                            <span className="text-gray-600">Subtotal After Discount</span>
+                                            <span>${discountedSubtotal.toFixed(2)}</span>
+                                        </div>)}
                                         <div className="flex justify-between">
                                             <span className="text-gray-600">Shipping</span>
                                             <span>
@@ -178,6 +215,7 @@ export default function CartIndex() {
                                             <span className="text-gray-600">Tax</span>
                                             <span>${tax.toFixed(2)}</span>
                                         </div>
+                                        
                                         {shipping > 0 && <div className="text-sm text-gray-500 italic">
                                             Free shipping on orders over $100
                                         </div>}
@@ -267,7 +305,17 @@ export default function CartIndex() {
                 cart={cart}
                 shipping={shipping}
                 tax={tax} // Pass tax to CheckoutModal
+                discounter={discounter || ''}
+                discountAmount={discountAmount || 0} // Pass discountAmount to CheckoutModal
             />
+            {isDiscountModalOpen && (
+                <DiscountModal
+                    isOpen={isDiscountModalOpen}
+                    onClose={() => setIsDiscountModalOpen(false)}
+                    amount={discountAmount || 0}
+                    discounter={discounter || ''}
+                />
+            )}
         </div>
     );
 }
