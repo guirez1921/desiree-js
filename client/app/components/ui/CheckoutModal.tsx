@@ -25,10 +25,10 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
     // Calculate subtotal and discount
     const subtotal = cart.reduce((total, item) => total + ((item.product?.price ?? 0) * item.quantity), 0);
     const hasDiscount = !!discounter && !!discountAmount;
-    const discountedSubtotal = hasDiscount ? Math.max(0, subtotal - (discountAmount || 0)) : subtotal;
-    const finalShipping = discountedSubtotal > 100 ? 0 : shipping;
-    const finalTax = discountedSubtotal * (tax / subtotal || 0); // keep tax proportional if subtotal is 0
-    const finalTotal = discountedSubtotal + finalShipping + finalTax;
+    const finalShipping = subtotal > 100 ? 0 : shipping;
+    const finalTax = subtotal * 0.3; // Use consistent tax rate 0.3
+    // Subtract discount from total if present
+    const finalTotal = subtotal + finalShipping + finalTax - (hasDiscount ? discountAmount! : 0);
 
     const handleBackToShipping = () => {
         setIsOrderSummaryVisible(false);
@@ -113,15 +113,8 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
                                     <p className="font-medium text-gray-800">${subtotal.toFixed(2)}</p>
                                 </li>
                                 {hasDiscount && (
-                                    <li className="flex justify-between items-center text-green-700">
-                                        <p className="font-medium text-gray-800">Discount ({discounter})</p>
-                                        <p className="font-medium">- ${discountAmount?.toFixed(2)}</p>
-                                    </li>
-                                )}
-                                {hasDiscount && (
                                     <li className="flex justify-between items-center font-semibold">
-                                        <p className="font-medium text-gray-800">Subtotal After Discount</p>
-                                        <p className="font-medium text-gray-800">${discountedSubtotal.toFixed(2)}</p>
+                                        {/* Removed Subtotal After Discount row */}
                                     </li>
                                 )}
                                 <li className="flex justify-between items-center">

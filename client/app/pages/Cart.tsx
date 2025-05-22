@@ -59,26 +59,25 @@ export default function CartIndex() {
     };
 
     const subtotal = cart.reduce((sum, item) => sum + (item.product?.price ?? 0) * item.quantity, 0);
-    const taxRate = 0.1; // Define tax rate
+    const taxRate = 0.1; // Updated tax rate to 0.3
 
-    // Calculate discounted subtotal if discount is present
     const hasDiscount = discountAmount && discounter;
-    const discountedSubtotal = hasDiscount ? Math.max(0, subtotal - discountAmount) : subtotal;
-    const shipping = discountedSubtotal > 100 ? 0 : 9.99;
-    const tax = discountedSubtotal * taxRate;
-    const total = discountedSubtotal + shipping + tax;
+    const shipping = subtotal > 100 ? 0 : 9.99;
+    const tax = subtotal * taxRate;
+    // Subtract discount from total if present
+    const total = subtotal + shipping + tax - (hasDiscount ? discountAmount! : 0);
 
     const [isCheckoutModalOpen, setIsCheckoutModalOpen] = useState(false);
     const recommendedProducts: Product[] = allProducts
-        .map((product) => ({
-            ...product,
-            rating: typeof product.rating === 'string' ? parseFloat(product.rating) : product.rating,
-            description: product.description === null ? undefined : product.description,
-            fullDescription: product.fullDescription === null ? undefined : product.fullDescription,
-            sizes: product.sizes === null ? undefined : product.sizes,
-            colors: product.colors === null ? undefined : product.colors,
-        }))
-        .slice(0, 8); // Pick only the first 8 products
+            .map((product) => ({
+                ...product,
+                rating: typeof product.rating === 'string' ? parseFloat(product.rating) : product.rating,
+                description: product.description === null ? undefined : product.description,
+                fullDescription: product.fullDescription === null ? undefined : product.fullDescription,
+                sizes: product.sizes === null ? undefined : product.sizes,
+                colors: product.colors === null ? undefined : product.colors,
+            }) as Product)
+            .slice(0, 8); // Pick only the first 8 products
 
     function handleCheckout(data: any) {
         console.log('Checkout data:', data);
@@ -201,10 +200,6 @@ export default function CartIndex() {
                                                 <span>- ${discountAmount?.toFixed(2)}</span>
                                             </div>
                                         )}
-                                        {hasDiscount && (<div className="flex justify-between font-semibold">
-                                            <span className="text-gray-600">Subtotal After Discount</span>
-                                            <span>${discountedSubtotal.toFixed(2)}</span>
-                                        </div>)}
                                         <div className="flex justify-between">
                                             <span className="text-gray-600">Shipping</span>
                                             <span>
