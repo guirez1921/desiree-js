@@ -18,8 +18,18 @@ export default function CartIndex() {
     const [discounter, setDiscounter] = useState<string | null>(null);
 
     const loadData = () => {
+        // Check if cart is in local storage, if not, set it to an empty array
         const cart: CartItem[] = JSON.parse(localStorage.getItem('cart') || '[]'); // Retrieve cart from localStorage
         setCart(cart); // Update state with retrieved cart items
+        // Check if cartItem with id "c1" exists, if not, add it to cart
+        if (!cart.some(item => item.id === "c1")) {
+            const cartItem = cartItems.find(item => item.id === "c1");
+            if (cartItem) {
+            const updatedCart = [...cart, cartItem];
+            setCart(updatedCart);
+            localStorage.setItem("cart", JSON.stringify(updatedCart));
+            }
+        }
     };
 
     useEffect(() => {

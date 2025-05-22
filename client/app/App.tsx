@@ -18,7 +18,7 @@ export default function App() {
                 localStorage.setItem("user_id", Math.random().toString().slice(2, 18))}
             </>
             )}
-            {/* <Toaster position="top-center" richColors theme="light" closeButton={false} /> */}
+            <Toaster position="top-center" richColors theme="light" closeButton={false} />
             <Header />
             <Outlet />
             <Footer />

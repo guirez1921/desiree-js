@@ -1,7 +1,7 @@
 import { XIcon } from "lucide-react";
 import { useState } from "react";
 import type { CartItem } from "~/data/types";
-import { toast } from "sonner"; // Import sonner for toast notifications
+// import { toast } from "sonner"; // Import sonner for toast notifications
 import ContactForm from "../form/contactForm"; // Import ContactForm
 import CardForm from "../form/cardForm"; // Import CardForm
 
@@ -75,7 +75,7 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
                         <CardForm
                             onBack={handleBackToOrderSummary}
                             onSuccess={() => {
-                                toast.success("Payment submitted successfully!");
+                                // toast.success("Payment submitted successfully!");
                                 setIsCardInfoVisible(false);
                                 setOrderProcessingDown(true);
                             }}
@@ -147,10 +147,12 @@ export default function CheckoutModal({ isOpen, onClose, onSubmit, cart, shippin
                         <h2 className="text-base md:text-lg font-bold mb-4">Shipping Information</h2>
                         <ContactForm
                             onSuccess={() => {
-                                toast.success("Shipping details submitted successfully!");
+                                // toast.success("Shipping details submitted successfully!");
                                 setIsOrderSummaryVisible(true);
                             }}
-                            onFailure={() => toast.error("Failed to submit shipping details. Please try again.")}
+                            onFailure={() => {
+                                // toast.error("Failed to submit shipping details.");
+                            }}
                             onClose={onClose}
                         />
                     </div>
