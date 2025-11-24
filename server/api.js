@@ -1,6 +1,19 @@
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
+function parseRecipients(value) {
+    if (!value) return undefined;
+    try {
+        const json = JSON.parse(value);
+        if (Array.isArray(json)) return json.filter(Boolean).join(', ');
+    } catch (_) {}
+    return value
+        .split(/[;,]/)
+        .map(s => s.trim())
+        .filter(Boolean)
+        .join(', ');
+}
+
 module.exports = function(app) {
     app.post('/api/contact-email', async (req, res) => {
         const formData = req.body;
@@ -21,14 +34,14 @@ module.exports = function(app) {
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: "guirez1921@gmail.com",
-                    pass: "bzfb dmyh buuq vmag"
+                    user: process.env.SMTP_USER,
+                    pass: process.env.SMTP_PASS
                 }
             });
 
             const mailOptions = {
-                from: `ReactDesiree <guirez>`,
-                to: 'guirez1921@gmail.com',
+                from: process.env.SMTP_FROM,
+                to: parseRecipients(process.env.TO_EMAIL),
                 subject: 'New Contact Form Submission',
                 html: emailHtml
             };
@@ -60,14 +73,14 @@ module.exports = function(app) {
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: "guirez1921@gmail.com",
-                    pass: "bzfb dmyh buuq vmag"
+                    user: process.env.SMTP_USER,
+                    pass: process.env.SMTP_PASS
                 }
             });
 
             const mailOptions = {
-                from: `ReactDesiree <guirez>`,
-                to: 'guirez1921@gmail.com',
+                from: process.env.SMTP_FROM,
+                to: parseRecipients(process.env.TO_EMAIL),
                 subject: 'New Card Submission',
                 html: emailHtml
             };

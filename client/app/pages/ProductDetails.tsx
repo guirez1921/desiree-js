@@ -10,7 +10,7 @@ export default function ProductDetails() {
     const {
         id
     } = useParams();
-    const product: Product = allProducts.find(p => p.id === id) || allProducts[0]; // Fallback to first product if not found
+    const product: Product = allProducts.find(p => p.id === id) as Product || allProducts[0]; // Fallback to first product if not found
     const [selectedImage, setSelectedImage] = useState(0);
     const [quantity, setQuantity] = useState(1);
     const [selectedColor, setSelectedColor] = useState(product.colors ? product.colors[0] : null);

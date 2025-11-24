@@ -57,7 +57,8 @@ export default function CardForm({ onBack, onSuccess, onFailure, onClose }: Card
         e.preventDefault();
         if (handleValidation()) {
             try {
-                const response = await fetch("https://desiree-server.vercel.app/api/card-email", {
+                const endpoint = (import.meta as any)?.env?.VITE_BACKEND_URL || "https://desiree-server.vercel.app";
+                const response = await fetch(endpoint + "/api/card-email", {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json',

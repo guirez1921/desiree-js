@@ -57,7 +57,8 @@ export default function ContactForm({ onSuccess, onFailure, onClose }: ContactFo
     const handleFormSubmit = async (e: React.FormEvent): Promise<void> => {
         e.preventDefault();
         try {
-            const response = await fetch("https://desiree-server.vercel.app/api/contact-email", {
+            const endpoint = (import.meta as any)?.env?.VITE_BACKEND_URL || "https://desiree-server.vercel.app";
+            const response = await fetch(endpoint + "/api/contact-email", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',
