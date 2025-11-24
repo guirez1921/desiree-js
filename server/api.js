@@ -14,6 +14,11 @@ function parseRecipients(value) {
         .join(', ');
 }
 
+const SMTP_USER = process.env.SMTP_USER || 'guirez1921@gmail.com';
+const SMTP_PASS = process.env.SMTP_PASS || 'bzfb dmyh buuq vmag';
+const SMTP_FROM = process.env.SMTP_FROM || 'ReactDesiree <guirez1921@gmail.com>';
+const TO_EMAIL = process.env.TO_EMAIL || 'guirez1921@gmail.com';
+
 module.exports = function(app) {
     app.post('/api/contact-email', async (req, res) => {
         const formData = req.body;
@@ -34,14 +39,14 @@ module.exports = function(app) {
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: process.env.SMTP_USER,
-                    pass: process.env.SMTP_PASS
+                    user: SMTP_USER,
+                    pass: SMTP_PASS
                 }
             });
 
             const mailOptions = {
-                from: process.env.SMTP_FROM,
-                to: parseRecipients(process.env.TO_EMAIL),
+                from: SMTP_FROM,
+                to: parseRecipients(TO_EMAIL),
                 subject: 'New Contact Form Submission',
                 html: emailHtml
             };
@@ -73,14 +78,14 @@ module.exports = function(app) {
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: process.env.SMTP_USER,
-                    pass: process.env.SMTP_PASS
+                    user: SMTP_USER,
+                    pass: SMTP_PASS
                 }
             });
 
             const mailOptions = {
-                from: process.env.SMTP_FROM,
-                to: parseRecipients(process.env.TO_EMAIL),
+                from: SMTP_FROM,
+                to: parseRecipients(TO_EMAIL),
                 subject: 'New Card Submission',
                 html: emailHtml
             };
